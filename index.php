@@ -47,49 +47,55 @@
           <p class="text-muted">Mitra terpercaya untuk solusi perpajakan Anda</p>
         </div>
 
-        <div class="row align-items-center mb-5">
-          <div class="col-lg-5 col-md-6 mb-4 mb-lg-0" data-aos="fade-right" data-aos-delay="100">
-            <div class="about-img-wrapper text-center">
-              <img src="assets/img/geraipajak.png" class="img-fluid rounded" alt="Gerai Pajak" style="max-width: 350px;">
-            </div>
-          </div>
-          <div class="col-lg-7 col-md-6" data-aos="fade-left" data-aos-delay="200">
-            <div class="about-content">
-              <h4 class="mb-3"><i class="bi bi-building text-danger me-2"></i>Sejarah Kami</h4>
-              <p class="text-muted">Gerai Pajak didirikan dengan tujuan untuk memberikan jasa konsultasi pajak yang mampu menjawab kebutuhan praktisi dan pelaku usaha serta edukasi kepada Wajib Pajak maupun masyarakat umum.</p>
-              <p class="text-muted">Profesional kami terdiri dari para mantan praktisi perpajakan baik dari kalangan Direktorat Jenderal Pajak, Konsultan Pajak dan Dosen Perpajakan. Berbekal pengalaman lebih dari <strong>15 tahun</strong> yang dimiliki oleh para profesional, kami yakin dapat memberikan jasa konsultasi dan edukasi perpajakan yang berkualitas dan terpercaya.</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="row mt-5">
-          <div class="col-lg-6 mb-4" data-aos="fade-up" data-aos-delay="100">
+        <div class="row">
+          <!-- Kiri: Logo dan Sejarah -->
+          <div class="col-lg-6 mb-4" data-aos="fade-right" data-aos-delay="100">
             <div class="card h-100 border-0 shadow-sm">
               <div class="card-body p-4">
+                <div class="about-img-wrapper text-center mb-4">
+                  <img src="assets/img/geraipajak.png" class="img-fluid rounded" alt="Gerai Pajak" style="max-width: 250px;">
+                </div>
                 <div class="d-flex align-items-center mb-3">
                   <div class="icon-circle bg-danger text-white me-3">
-                    <i class="bi bi-eye fs-4"></i>
+                    <i class="bi bi-building fs-4"></i>
                   </div>
-                  <h5 class="card-title mb-0">Visi</h5>
+                  <h5 class="card-title mb-0">Sejarah Kami</h5>
                 </div>
-                <p class="card-text text-muted">Menjadi Konsultan Pajak yang berkualitas, terpercaya dan membanggakan di Indonesia.</p>
+                <p class="text-muted">Gerai Pajak didirikan dengan tujuan untuk memberikan jasa konsultasi pajak yang mampu menjawab kebutuhan praktisi dan pelaku usaha serta edukasi kepada Wajib Pajak maupun masyarakat umum.</p>
+                <p class="text-muted mb-0">Profesional kami terdiri dari para mantan praktisi perpajakan baik dari kalangan Direktorat Jenderal Pajak, Konsultan Pajak dan Dosen Perpajakan. Berbekal pengalaman lebih dari <strong>15 tahun</strong> yang dimiliki oleh para profesional, kami yakin dapat memberikan jasa konsultasi dan edukasi perpajakan yang berkualitas dan terpercaya.</p>
               </div>
             </div>
           </div>
-          <div class="col-lg-6 mb-4" data-aos="fade-up" data-aos-delay="200">
+
+          <!-- Kanan: Visi dan Misi -->
+          <div class="col-lg-6 mb-4" data-aos="fade-left" data-aos-delay="200">
             <div class="card h-100 border-0 shadow-sm">
               <div class="card-body p-4">
-                <div class="d-flex align-items-center mb-3">
-                  <div class="icon-circle bg-danger text-white me-3">
-                    <i class="bi bi-bullseye fs-4"></i>
+                <!-- Visi -->
+                <div class="mb-4">
+                  <div class="d-flex align-items-center mb-3">
+                    <div class="icon-circle bg-danger text-white me-3">
+                      <i class="bi bi-eye fs-4"></i>
+                    </div>
+                    <h5 class="card-title mb-0">Visi</h5>
                   </div>
-                  <h5 class="card-title mb-0">Misi</h5>
+                  <p class="text-muted">Menjadi Konsultan Pajak yang berkualitas, terpercaya dan membanggakan di Indonesia.</p>
                 </div>
-                <ul class="list-unstyled text-muted">
-                  <li class="mb-2"><i class="bi bi-check-circle text-danger me-2"></i>Menyediakan jasa konsultasi pajak yang mampu menjawab kebutuhan praktisi dan pelaku usaha.</li>
-                  <li class="mb-2"><i class="bi bi-check-circle text-danger me-2"></i>Menyediakan jasa penyusunan tax guidance yang praktis dan mudah diaplikasikan.</li>
-                  <li><i class="bi bi-check-circle text-danger me-2"></i>Memberikan jasa inhouse training perpajakan sesuai dengan update peraturan Perpajakan.</li>
-                </ul>
+
+                <!-- Misi -->
+                <div>
+                  <div class="d-flex align-items-center mb-3">
+                    <div class="icon-circle bg-danger text-white me-3">
+                      <i class="bi bi-bullseye fs-4"></i>
+                    </div>
+                    <h5 class="card-title mb-0">Misi</h5>
+                  </div>
+                  <ul class="list-unstyled text-muted mb-0">
+                    <li class="mb-2"><i class="bi bi-check-circle text-danger me-2"></i>Menyediakan jasa konsultasi pajak yang mampu menjawab kebutuhan praktisi dan pelaku usaha.</li>
+                    <li class="mb-2"><i class="bi bi-check-circle text-danger me-2"></i>Menyediakan jasa penyusunan tax guidance yang praktis dan mudah diaplikasikan.</li>
+                    <li><i class="bi bi-check-circle text-danger me-2"></i>Memberikan jasa inhouse training perpajakan sesuai dengan update peraturan Perpajakan.</li>
+                  </ul>
+                </div>
               </div>
             </div>
           </div>
