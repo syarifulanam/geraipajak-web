@@ -3113,3 +3113,178 @@ section,
     min-height: 300px !important;
   }
 }
+
+/*--------------------------------------------------------------
+# Page Hero Section (Reusable)
+--------------------------------------------------------------*/
+.page-hero {
+  background: linear-gradient(135deg, #dc3545 0%, #b02a37 100%);
+  padding: 40px 0 30px;
+  margin-top: 70px;
+}
+
+.page-hero h1 {
+  color: #fff;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.page-hero p {
+  color: rgba(255, 255, 255, 0.85);
+  font-size: 1.1rem;
+}
+
+/*--------------------------------------------------------------
+# Blog Section
+--------------------------------------------------------------*/
+.blog-section {
+  padding: 60px 0;
+  background: #f8f9fa;
+  min-height: 60vh;
+}
+
+/* Blog Cards */
+.blog-card {
+  border: none;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+  height: 100%;
+}
+
+.blog-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
+}
+
+.blog-card .card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+.blog-card .card-body {
+  padding: 1.5rem;
+}
+
+.blog-card .card-title {
+  font-weight: 600;
+  font-size: 1.1rem;
+  line-height: 1.4;
+  margin-bottom: 12px;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.blog-card .card-title a {
+  color: #333;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.blog-card .card-title a:hover {
+  color: #dc3545;
+}
+
+.blog-card .card-date {
+  color: #888;
+  font-size: 0.85rem;
+  margin-bottom: 15px;
+}
+
+.blog-card .card-date i {
+  margin-right: 5px;
+}
+
+.blog-card .btn-read {
+  background: #dc3545;
+  border: none;
+  padding: 8px 20px;
+  border-radius: 25px;
+  font-size: 0.9rem;
+  transition: all 0.3s;
+}
+
+.blog-card .btn-read:hover {
+  background: #b02a37;
+  transform: translateX(5px);
+}
+
+/*--------------------------------------------------------------
+# Sidebar (Reusable)
+--------------------------------------------------------------*/
+.sidebar-card {
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+  overflow: hidden;
+}
+
+.sidebar-card .card-header {
+  background: linear-gradient(135deg, #dc3545 0%, #b02a37 100%);
+  color: #fff;
+  font-weight: 600;
+  padding: 15px 20px;
+  border: none;
+}
+
+.sidebar-card .card-header i {
+  margin-right: 8px;
+}
+
+.sidebar-card .list-group-item {
+  border: none;
+  border-bottom: 1px solid #f0f0f0;
+  padding: 12px 20px;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.sidebar-card .list-group-item:last-child {
+  border-bottom: none;
+}
+
+.sidebar-card .list-group-item:hover {
+  background: #fff5f5;
+  color: #dc3545;
+  padding-left: 25px;
+}
+
+.sidebar-sticky {
+  position: sticky;
+  top: 100px;
+}
+
+/*--------------------------------------------------------------
+# Empty State (Reusable)
+--------------------------------------------------------------*/
+.empty-state {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.empty-state i {
+  font-size: 4rem;
+  color: #ddd;
+  margin-bottom: 20px;
+}
+
+.empty-state h4 {
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.empty-state p {
+  color: #999;
+}
+
+/*--------------------------------------------------------------
+# Gallery Section
+--------------------------------------------------------------*/
+.gallery-section {
+  padding: 60px 0;
+  background: #f8f9fa;
+  min-height: 60vh;
+}
