@@ -52,19 +52,15 @@
 
     <section id="about" class="about py-5">
       <div class="container">
-        <div class="section-title text-center mb-5" data-aos="fade-up">
+        <div class="section-title text-center mb-4" data-aos="fade-up">
           <h2>Tentang Kami</h2>
           <p class="text-muted">Mitra terpercaya untuk solusi perpajakan Anda</p>
         </div>
-
         <div class="row">
-          <!-- Kiri: Logo dan Sejarah -->
+          <!-- Kiri: Sejarah -->
           <div class="col-lg-6 mb-4" data-aos="fade-right" data-aos-delay="100">
             <div class="card h-100 border-0 shadow-sm">
               <div class="card-body p-4">
-                <div class="about-img-wrapper text-center mb-4">
-                  <img src="assets/img/geraipajak.png" class="img-fluid rounded" alt="Gerai Pajak" style="max-width: 250px;">
-                </div>
                 <div class="d-flex align-items-center mb-3">
                   <div class="icon-circle bg-danger text-white me-3">
                     <i class="bi bi-building fs-4"></i>
@@ -274,7 +270,7 @@
                   <span class="fw-bold">AS</span>
                 </div>
                 <div>
-                  <h6 class="mb-0">Ahmad Suryanto</h6>
+                  <h6 class="mb-0">Ahmad ***</h6>
                   <small class="text-muted">Direktur, PT ***</small>
                 </div>
               </div>
@@ -296,7 +292,7 @@
                   <span class="fw-bold">RW</span>
                 </div>
                 <div>
-                  <h6 class="mb-0">Ratna Wijaya</h6>
+                  <h6 class="mb-0">Ratna ***</h6>
                   <small class="text-muted">Finance Manager, CV ***</small>
                 </div>
               </div>
@@ -318,7 +314,7 @@
                   <span class="fw-bold">BP</span>
                 </div>
                 <div>
-                  <h6 class="mb-0">Budi Prakoso</h6>
+                  <h6 class="mb-0">Budi ***</h6>
                   <small class="text-muted">Owner, ***</small>
                 </div>
               </div>
@@ -347,34 +343,70 @@
       </div>
 
       <div class="container">
-        <div class="row g-4 mb-5">
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
-            <div class="contact-card text-center p-4 h-100 bg-light rounded">
-              <div class="icon-circle bg-danger text-white mx-auto mb-3">
-                <i class="bi bi-geo-alt fs-4"></i>
-              </div>
-              <h5>Alamat</h5>
-              <p class="text-muted small mb-0">Menara Mandiri II Lantai 11<br>Jl. Jend. Sudirman Kav. 54-55<br>Jakarta Selatan</p>
+        <div class="row g-4">
+          <!-- Google Maps -->
+          <div class="col-lg-6" data-aos="fade-right" data-aos-delay="100">
+            <div class="map-container rounded shadow overflow-hidden h-100">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.2865!2d106.8215!3d-6.2255!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f3e4f7e8b8b7%3A0x8b8b8b8b8b8b8b8b!2sMenara%20Mandiri%20II!5e0!3m2!1sen!2sid!4v1234567890"
+                width="100%"
+                height="100%"
+                style="border:0; min-height: 400px;"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade">
+              </iframe>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
-            <div class="contact-card text-center p-4 h-100 bg-light rounded">
-              <div class="icon-circle bg-danger text-white mx-auto mb-3">
-                <i class="bi bi-telephone fs-4"></i>
+          <!-- Contact Info -->
+          <div class="col-lg-6" data-aos="fade-left" data-aos-delay="200">
+            <div class="contact-info-wrapper">
+              <!-- Alamat -->
+              <div class="contact-info-card d-flex align-items-start p-4 bg-white rounded shadow-sm mb-3">
+                <div class="icon-circle bg-danger text-white me-4 flex-shrink-0">
+                  <i class="bi bi-geo-alt fs-4"></i>
+                </div>
+                <div>
+                  <h5 class="mb-2">Alamat Kantor</h5>
+                  <p class="text-muted mb-0">Menara Mandiri II Lantai 11<br>Jl. Jend. Sudirman Kav. 54-55<br>Jakarta Selatan 12190</p>
+                </div>
               </div>
-              <h5>Telepon</h5>
-              <p class="text-muted mb-0"><a href="tel:02150820882" class="text-decoration-none">021-5082-0882</a></p>
-            </div>
-          </div>
 
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
-            <div class="contact-card text-center p-4 h-100 bg-light rounded">
-              <div class="icon-circle bg-danger text-white mx-auto mb-3">
-                <i class="bi bi-envelope fs-4"></i>
+              <!-- Telepon -->
+              <div class="contact-info-card d-flex align-items-start p-4 bg-white rounded shadow-sm mb-3">
+                <div class="icon-circle bg-danger text-white me-4 flex-shrink-0">
+                  <i class="bi bi-telephone fs-4"></i>
+                </div>
+                <div>
+                  <h5 class="mb-2">Telepon</h5>
+                  <p class="mb-1"><a href="tel:02150820882" class="text-muted text-decoration-none"><i class="bi bi-telephone-fill me-2 text-danger"></i>021-5082-0882</a></p>
+                  <p class="mb-0"><a href="https://wa.me/62215082882" target="_blank" class="text-muted text-decoration-none"><i class="bi bi-whatsapp me-2 text-success"></i>+62 21 5082 0882</a></p>
+                </div>
               </div>
-              <h5>Email</h5>
-              <p class="text-muted mb-0"><a href="mailto:admin@geraipajak.com" class="text-decoration-none">admin@geraipajak.com</a></p>
+
+              <!-- Email -->
+              <div class="contact-info-card d-flex align-items-start p-4 bg-white rounded shadow-sm mb-3">
+                <div class="icon-circle bg-danger text-white me-4 flex-shrink-0">
+                  <i class="bi bi-envelope fs-4"></i>
+                </div>
+                <div>
+                  <h5 class="mb-2">Email</h5>
+                  <p class="mb-0"><a href="mailto:admin@geraipajak.com" class="text-muted text-decoration-none"><i class="bi bi-envelope-fill me-2 text-danger"></i>admin@geraipajak.com</a></p>
+                </div>
+              </div>
+
+              <!-- Jam Operasional -->
+              <div class="contact-info-card d-flex align-items-start p-4 bg-white rounded shadow-sm">
+                <div class="icon-circle bg-danger text-white me-4 flex-shrink-0">
+                  <i class="bi bi-clock fs-4"></i>
+                </div>
+                <div>
+                  <h5 class="mb-2">Jam Operasional</h5>
+                  <p class="mb-1 text-muted"><i class="bi bi-calendar-check me-2 text-danger"></i>Senin - Jumat: 08.00 - 17.00 WIB</p>
+                  <p class="mb-0 text-muted"><i class="bi bi-calendar-x me-2 text-secondary"></i>Sabtu - Minggu: Tutup</p>
+                </div>
+              </div>
             </div>
           </div>
         </div>

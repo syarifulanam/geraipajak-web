@@ -3058,6 +3058,37 @@ section,
   font-size: 16px;
 }
 
+/* Contact Info Cards */
+.contact-info-card {
+  transition: all 0.3s ease;
+  border: 1px solid transparent;
+}
+
+.contact-info-card:hover {
+  transform: translateX(10px);
+  border-color: var(--accent-color);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1) !important;
+}
+
+.contact-info-card h5 {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.contact-info-card a:hover {
+  color: var(--accent-color) !important;
+}
+
+/* Map Container */
+.map-container {
+  border: 3px solid #f0f0f0;
+  transition: all 0.3s ease;
+}
+
+.map-container:hover {
+  border-color: var(--accent-color);
+}
+
 /* Responsive Adjustments */
 @media (max-width: 768px) {
   .icon-circle {
@@ -3071,5 +3102,14 @@ section,
 
   .contact-card {
     margin-bottom: 15px;
+  }
+
+  .contact-info-card:hover {
+    transform: translateX(0);
+    transform: translateY(-5px);
+  }
+
+  .map-container iframe {
+    min-height: 300px !important;
   }
 }
