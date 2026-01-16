@@ -27,7 +27,7 @@ require 'function-conn.php';
             <div class="row justify-content-center text-center">
                 <div class="col-lg-8" data-aos="fade-up">
                     <h1><i class="bi bi-journal-richtext me-2"></i>Blog & Artikel</h1>
-                    <p>Temukan informasi terbaru seputar perpajakan, tips, dan panduan untuk membantu Anda memahami kewajiban perpajakan dengan lebih baik.</p>
+                    <p class="d-none d-lg-block">Temukan informasi terbaru seputar perpajakan, tips, dan panduan untuk membantu Anda memahami kewajiban perpajakan dengan lebih baik.</p>
                 </div>
             </div>
         </div>
@@ -38,7 +38,7 @@ require 'function-conn.php';
             <div class="container">
                 <div class="row">
                     <!-- Sidebar (Left) -->
-                    <div class="col-lg-3">
+                    <div class="col-lg-3 d-none d-lg-block">
                         <div class="sidebar-sticky">
                             <div class="card sidebar-card mb-4" data-aos="fade-left" data-aos-delay="100">
                                 <div class="card-header">

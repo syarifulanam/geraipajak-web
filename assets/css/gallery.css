@@ -40,6 +40,22 @@ img {
   background: #f0f0f0;
 }
 
+/* Mobile: 1 column */
+@media (max-width: 576px) {
+  .gallery figure {
+    -ms-flex-preferred-size: 100%;
+    flex-basis: 100%;
+  }
+}
+
+/* Tablet: 2 columns */
+@media (min-width: 577px) and (max-width: 991px) {
+  .gallery figure {
+    -ms-flex-preferred-size: 50%;
+    flex-basis: 50%;
+  }
+}
+
 .gallery figure img {
   width: 100%;
   min-height: 180px;

@@ -27,7 +27,7 @@ require 'function-conn.php';
             <div class="row justify-content-center text-center">
                 <div class="col-lg-8" data-aos="fade-up">
                     <h1><i class="bi bi-images me-2"></i>Galeri Kegiatan</h1>
-                    <p>Dokumentasi berbagai kegiatan dan aktivitas Gerai Pajak dalam memberikan layanan perpajakan terbaik.</p>
+                    <p class="d-none d-lg-block">Dokumentasi berbagai kegiatan dan aktivitas Gerai Pajak dalam memberikan layanan perpajakan terbaik.</p>
                 </div>
             </div>
         </div>
