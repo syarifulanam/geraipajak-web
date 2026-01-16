@@ -1,13 +1,20 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Gerai Pajak</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
+  <title>Gerai Pajak - Konsultan Pajak Profesional Jakarta | Tax Consultant</title>
+  <meta content="Gerai Pajak adalah konsultan pajak profesional di Jakarta dengan pengalaman lebih dari 15 tahun. Layanan konsultasi pajak, tax compliance, tax review, dan pelatihan perpajakan untuk bisnis Anda." name="description">
+  <meta content="konsultan pajak, konsultan pajak jakarta, jasa konsultasi pajak, tax consultant, tax compliance, tax review, pelatihan pajak, gerai pajak" name="keywords">
+  <meta content="Gerai Pajak" name="author">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Gerai Pajak - Konsultan Pajak Profesional Jakarta">
+  <meta property="og:description" content="Konsultan pajak profesional dengan pengalaman 15+ tahun. Layanan tax consultancy, compliance, review, dan training.">
+  <meta property="og:image" content="assets/img/geraipajak.png">
 
   <?php include 'library-head.php'; ?>
 
@@ -31,8 +38,11 @@
             <p data-aos="fade-up" data-aos-delay="230">Kami menawarkan layanan konsultasi pajak yang komprehensif<br>
               untuk membantu bisnis Anda memaksimalkan efisiensi dan meminimalkan kewajiban pajak.</p>
             <div data-aos="fade-up" data-aos-delay="350">
-              <a href="#contact" class="btn btn-danger btn-lg mt-4 px-5 py-3">
+              <a href="#contact" class="btn btn-danger btn-lg mt-4 px-5 py-3 me-2">
                 <i class="bi bi-chat-dots me-2"></i>Konsultasi Sekarang
+              </a>
+              <a href="#services" class="btn btn-outline-light btn-lg mt-4 px-4 py-3">
+                <i class="bi bi-grid me-2"></i>Lihat Layanan
               </a>
             </div>
           </div>
@@ -97,6 +107,39 @@
                   </ul>
                 </div>
               </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Stats Counter Section -->
+    <section id="stats" class="stats">
+      <img src="assets/img/konsultan-pajak.png" alt="Background">
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="row gy-4 justify-content-center">
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item text-center">
+              <span data-purecounter-start="0" data-purecounter-end="15" data-purecounter-duration="1" class="purecounter">15</span>
+              <p>Tahun Pengalaman</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item text-center">
+              <span data-purecounter-start="0" data-purecounter-end="500" data-purecounter-duration="1" class="purecounter">500</span>
+              <p>Klien Terlayani</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item text-center">
+              <span data-purecounter-start="0" data-purecounter-end="50" data-purecounter-duration="1" class="purecounter">50</span>
+              <p>Konsultan Profesional</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item text-center">
+              <span data-purecounter-start="0" data-purecounter-end="98" data-purecounter-duration="1" class="purecounter">98</span>
+              <p>% Tingkat Kepuasan</p>
             </div>
           </div>
         </div>
@@ -193,7 +236,106 @@
               <p class="text-muted small">Dokumentasi dan konsultasi transfer pricing untuk transaksi afiliasi.</p>
             </div>
           </div>
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
+            <div class="service-card h-100 p-4 bg-white rounded shadow-sm text-center">
+              <div class="icon-box mb-3">
+                <i class="bi bi-calculator fs-1 text-danger"></i>
+              </div>
+              <h5 class="mb-3">Tax Planning</h5>
+              <p class="text-muted small">Perencanaan pajak strategis untuk mengoptimalkan beban pajak secara legal dan efisien.</p>
+            </div>
+          </div>
         </div>
+      </div>
+    </section>
+
+    <!-- Testimonial Section -->
+    <section id="testimonials" class="testimonials py-5">
+      <div class="container">
+        <div class="section-title text-center mb-5" data-aos="fade-up">
+          <h2>Apa Kata Klien Kami</h2>
+          <p class="text-muted">Kepuasan klien adalah prioritas utama kami</p>
+        </div>
+
+        <div class="row g-4">
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="testimonial-card bg-light p-4 rounded h-100">
+              <div class="stars mb-3">
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+              </div>
+              <p class="text-muted mb-4">"Gerai Pajak sangat membantu perusahaan kami dalam mengelola kewajiban perpajakan. Tim mereka profesional dan responsif dalam menjawab setiap pertanyaan kami."</p>
+              <div class="d-flex align-items-center">
+                <div class="testimonial-avatar bg-danger text-white rounded-circle d-flex align-items-center justify-content-center me-3" style="width: 50px; height: 50px;">
+                  <span class="fw-bold">AS</span>
+                </div>
+                <div>
+                  <h6 class="mb-0">Ahmad Suryanto</h6>
+                  <small class="text-muted">Direktur, PT ***</small>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="testimonial-card bg-light p-4 rounded h-100">
+              <div class="stars mb-3">
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+              </div>
+              <p class="text-muted mb-4">"Pelayanan yang sangat memuaskan! Konsultan dari Gerai Pajak memberikan solusi yang tepat untuk masalah perpajakan perusahaan kami. Highly recommended!"</p>
+              <div class="d-flex align-items-center">
+                <div class="testimonial-avatar bg-danger text-white rounded-circle d-flex align-items-center justify-content-center me-3" style="width: 50px; height: 50px;">
+                  <span class="fw-bold">RW</span>
+                </div>
+                <div>
+                  <h6 class="mb-0">Ratna Wijaya</h6>
+                  <small class="text-muted">Finance Manager, CV ***</small>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="testimonial-card bg-light p-4 rounded h-100">
+              <div class="stars mb-3">
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-half text-warning"></i>
+              </div>
+              <p class="text-muted mb-4">"Training perpajakan yang diberikan sangat bermanfaat untuk tim finance kami. Materi up-to-date dan penyampaian mudah dipahami. Terima kasih Gerai Pajak!"</p>
+              <div class="d-flex align-items-center">
+                <div class="testimonial-avatar bg-danger text-white rounded-circle d-flex align-items-center justify-content-center me-3" style="width: 50px; height: 50px;">
+                  <span class="fw-bold">BP</span>
+                </div>
+                <div>
+                  <h6 class="mb-0">Budi Prakoso</h6>
+                  <small class="text-muted">Owner, ***</small>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Call to Action Section -->
+    <section id="cta" class="call-to-action">
+      <img src="assets/img/konsultan-pajak.png" alt="CTA Background">
+      <div class="container text-center" data-aos="zoom-in" data-aos-delay="100">
+        <h3>Siap Mengoptimalkan Pajak Bisnis Anda?</h3>
+        <p class="mb-4">Konsultasikan kebutuhan perpajakan Anda dengan tim profesional kami.<br>Dapatkan solusi terbaik untuk bisnis Anda sekarang juga!</p>
+        <a href="#contact" class="cta-btn">Hubungi Kami Sekarang</a>
+        <a href="https://wa.me/62215082882?text=Halo%20Gerai%20Pajak,%20saya%20ingin%20konsultasi" class="cta-btn" target="_blank"><i class="bi bi-whatsapp me-2"></i>Chat via WhatsApp</a>
       </div>
     </section>
 
@@ -236,50 +378,17 @@
             </div>
           </div>
         </div>
-
-        <div class="row justify-content-center">
-          <div class="col-lg-8">
-            <div class="card border-0 shadow" data-aos="fade-up" data-aos-delay="200">
-              <div class="card-body p-4 p-md-5">
-                <h5 class="text-center mb-4">Kirim Pesan</h5>
-                <form action="#" method="post" class="contact-form">
-                  <div class="row g-3">
-                    <div class="col-md-6">
-                      <label for="name" class="form-label">Nama Lengkap</label>
-                      <input type="text" class="form-control" id="name" name="name" placeholder="Masukkan nama Anda" required>
-                    </div>
-                    <div class="col-md-6">
-                      <label for="phone" class="form-label">Nomor Telepon</label>
-                      <input type="tel" class="form-control" id="phone" name="phone" placeholder="Contoh: 08123456789" required>
-                    </div>
-                    <div class="col-12">
-                      <label for="email" class="form-label">Email</label>
-                      <input type="email" class="form-control" id="email" name="email" placeholder="Contoh: nama@email.com" required>
-                    </div>
-                    <div class="col-12">
-                      <label for="subject" class="form-label">Subjek</label>
-                      <input type="text" class="form-control" id="subject" name="subject" placeholder="Topik pertanyaan Anda" required>
-                    </div>
-                    <div class="col-12">
-                      <label for="message" class="form-label">Pesan</label>
-                      <textarea class="form-control" id="message" name="message" rows="5" placeholder="Tuliskan pertanyaan atau pesan Anda..." required></textarea>
-                    </div>
-                    <div class="col-12 text-center mt-4">
-                      <button type="submit" class="btn btn-danger btn-lg px-5">
-                        <i class="bi bi-send me-2"></i>Kirim Pesan
-                      </button>
-                    </div>
-                  </div>
-                </form>
-              </div>
-            </div>
-          </div>
-        </div>
       </div>
 
     </section>
 
   </main>
+
+  <!-- Floating WhatsApp Button -->
+  <a href="https://wa.me/62215082882?text=Halo%20Gerai%20Pajak,%20saya%20ingin%20konsultasi%20mengenai%20pajak" class="whatsapp-float" target="_blank" rel="noopener noreferrer">
+    <i class="bi bi-whatsapp"></i>
+    <span class="whatsapp-text">Chat Kami</span>
+  </a>
 
   <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
