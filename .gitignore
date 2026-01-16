@@ -1,0 +1,13 @@
+node_modules
+images/*
+*.DS_Store
+error_log
+
+# Environment file - JANGAN UPLOAD KE GIT!
+.env
+*.env.local
+
+# Backup files
+*.bak
+*.sql
+*.log

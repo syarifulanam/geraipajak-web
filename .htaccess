@@ -1,0 +1,24 @@
+# Blokir akses ke file sensitif
+
+<FilesMatch "^\.env">
+Order allow,deny
+Deny from all
+</FilesMatch>
+
+# Blokir akses ke file PHP function (opsional, untuk keamanan ekstra)
+
+<FilesMatch "^function-.\*\.php$">
+Order allow,deny
+Deny from all
+</FilesMatch>
+
+# Cegah directory listing
+
+Options -Indexes
+
+# Blokir akses ke file backup dan log
+
+<FilesMatch "\.(bak|log|sql|tar|gz|zip)$">
+Order allow,deny
+Deny from all
+</FilesMatch>
